@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="e6396667-dfd4-41e2-8643-d399274970b6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Grid/css/flexigrid.css" afterPath="$PROJECT_DIR$/Grid/css/flexigrid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SysFolder/Extension/css/bizframe.css" afterPath="$PROJECT_DIR$/SysFolder/Extension/css/bizframe.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,21 +26,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flexigrid.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="flexigrid.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Grid/css/flexigrid.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="494">
+              <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bizframe.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bizframe.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SysFolder/Extension/css/bizframe.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="195">
+              <caret line="13" column="95" lean-forward="false" selection-start-line="13" selection-start-column="95" selection-end-line="13" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -147,6 +147,7 @@
       <find>normaltbl</find>
       <find>content</find>
       <find>.mspan</find>
+      <find>.flexigrid div.fbutton</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,10 +159,10 @@
         <option value="$PROJECT_DIR$/MainFrame.html" />
         <option value="$PROJECT_DIR$/public/styles/mainFrame.css" />
         <option value="$PROJECT_DIR$/public/js/store.js" />
-        <option value="$PROJECT_DIR$/SysFolder/Extension/css/bizframe.css" />
         <option value="$PROJECT_DIR$/Css/appInput2.css" />
         <option value="$PROJECT_DIR$/SysFolder/AppFrame/AppInput.aspx" />
         <option value="$PROJECT_DIR$/Grid/css/flexigrid.css" />
+        <option value="$PROJECT_DIR$/SysFolder/Extension/css/bizframe.css" />
       </list>
     </option>
   </component>
@@ -211,6 +212,24 @@
               <item name="Grid" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pm" type="462c0819:PsiDirectoryNode" />
+              <item name="SysFolder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pm" type="462c0819:PsiDirectoryNode" />
+              <item name="SysFolder" type="462c0819:PsiDirectoryNode" />
+              <item name="Extension" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pm" type="462c0819:PsiDirectoryNode" />
+              <item name="SysFolder" type="462c0819:PsiDirectoryNode" />
+              <item name="Extension" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -254,12 +273,12 @@
       <workItem from="1540520038815" duration="16000" />
       <workItem from="1540548127835" duration="2066000" />
       <workItem from="1540553112304" duration="1064000" />
-      <workItem from="1540565424000" duration="475000" />
+      <workItem from="1540565424000" duration="638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10692000" />
+    <option name="totallyTimeSpent" value="10855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="302" y="23" width="1378" height="1027" extended-state="0" />
@@ -735,14 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SysFolder/Extension/css/bizframe.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MainFrame.aspx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7095">
@@ -792,8 +803,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Grid/css/flexigrid.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        <state relative-caret-position="494">
+          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SysFolder/Extension/css/bizframe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="95" lean-forward="false" selection-start-line="13" selection-start-column="95" selection-end-line="13" selection-end-column="95" />
           <folding />
         </state>
       </provider>

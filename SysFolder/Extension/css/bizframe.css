@@ -4,14 +4,14 @@ a,a:hover{ color: #333; text-decoration: none; cursor: pointer; }
 .clear { clear: both; }
 .sidebar-wrap { background-color: #dfe5eb; overflow: hidden; }
 .new-sidebar-box { overflow: hidden; margin-bottom: 0px; }
-.main-area .sidebar li a {color:#fff; }
+.main-area .sidebar li a {color:#333; }
 .main-area .sidebar li { float: left; line-height: 40px; padding: 0 20px; cursor: pointer; }
 .main-area .sidebar li:hover,
 .main-area .sidebar .sidebar-current { background-color: #fff;
 	border: solid #1494f7;
 	border-width: 2px 0 0 0;}
 
-.closebtn { position: absolute; right: 10px; top: 0px;z-index:10; line-height: 40px;color:#fff; /*background: url(../../../grid/images/crossred.png) no-repeat 10px center; padding: 0 15px 0 30px;*/ }
+.closebtn { position: absolute; right: 10px; top: 0px;z-index:10; line-height: 40px;color:#333; /*background: url(../../../grid/images/crossred.png) no-repeat 10px center; padding: 0 15px 0 30px;*/ }
         .closebtn:hover { color:#32bce1;}
 
 .linetitle { overflow: hidden; height: 40px; background: #fff; }
