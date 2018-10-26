@@ -73,6 +73,7 @@
     color: #fff;
     text-align: center;
     margin-right:10px;
+    float: left;
 }
 
 .flexigrid div.fbutton div {  }
