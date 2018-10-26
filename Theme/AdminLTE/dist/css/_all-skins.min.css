@@ -197,7 +197,7 @@
   }
 }
 .skin-blue-light .main-header .logo {
-  background-color: #4f5f6f;
+  background-color: #1494f7;
   color: #ffffff;
   border-bottom: 0 solid transparent;
   box-shadow: 0 0 5px #40505f;
@@ -215,7 +215,7 @@
 .skin-blue-light .wrapper,
 .skin-blue-light .main-sidebar,
 .skin-blue-light .left-side {
-  background-color: #4f5f6f;
+  background-color: #2b333e;
 }
 .skin-blue-light .content-wrapper,
 .skin-blue-light .main-footer {
@@ -250,7 +250,7 @@
   font-weight: 600;
 }
 .skin-blue-light .sidebar-menu > li > .treeview-menu {
-  background: #40505f;
+  background: #222932;
 }
 .skin-blue-light .sidebar a {
   color: #444444;

@@ -51,7 +51,8 @@
 
 .flexigrid div.mDiv div.ptogtitle.vsble span { background: url(../images/ddn.png) no-repeat center; }
 
-.flexigrid div.tDiv { position: relative; border-bottom: 1px solid #ccc; overflow: hidden;margin:20px 0; }
+.flexigrid div.tDiv { position: relative;
+    overflow: hidden;margin:20px 0; }
 
 .flexigrid div.tDiv2 { float: left; clear: both; padding: 2px; }
 
@@ -62,7 +63,7 @@
 .flexigrid div.sDiv2 input { vertical-align: middle; padding-left: 3px;width:100px;box-sizing: border-box; }
 .flexigrid div.sDiv2 select { vertical-align: middle;width:100px;box-sizing: border-box; }
 
-.flexigrid div.btnseparator { float: left; height: 23px; border-left: 1px solid #b5b5b5; /*border-right: 1px solid #fff;*/ margin: 11px 6px 0; }
+.flexigrid div.btnseparator { float: left; height: 23px; border-left: 0px solid #b5b5b5; /*border-right: 1px solid #fff;*/ margin: 11px 6px 0; }
 .flexigrid .pDiv div.btnseparator { margin: 0 6px; }
 
 .flexigrid div.fbutton { width: 80px;

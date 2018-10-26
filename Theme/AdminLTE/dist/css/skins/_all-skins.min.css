@@ -264,7 +264,9 @@
 .skin-blue-light .treeview-menu > li.active > a,
 .skin-blue-light .treeview-menu > li > a:hover,
 .skin-blue-light .treeview-menu > li > a.menuselect  {
-  background:#32bce1;
+  background:#1a1f25;
+  color:#1494f7;
+  border-left:2px solid #1494f7;
 }
 .skin-blue-light .treeview-menu > li.active > a {
   font-weight: 600;

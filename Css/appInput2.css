@@ -7,7 +7,7 @@ body { font-weight: normal; font-style: normal; font-family: Tahoma,Helvetica,Ar
 table.normaltbl, table.redtbl, table.subtbl { table-layout: fixed; border-collapse: collapse; margin-left: auto; margin-right: auto; font-size: 14px; width: 100%; line-height: 20px; }
 
 table.redtbl { border: red 1px solid; color: red; }
-.normaltbl caption { font-weight: bold; font-size: 11pt; color: #555; height: 50px; line-height: 30px; text-align: center !important; }
+.normaltbl caption { font-weight: bold; font-size: 14pt; color: #555; height: 50px; line-height: 30px; text-align: center !important; }
 table.redtbl caption { font: bold 14pt/40px 黑体; }
 
 .normaltbl > tr > td, .normaltbl > tbody > tr > td, .subtbl > tbody > tr > td, .subtbl > thead > tr > td { text-align: left; padding: 8px 1px 8px 3px; line-height: 150%; }
@@ -64,11 +64,16 @@ a.subdelbtn { display: inline-block; margin-left: auto; margin-right: auto; widt
 a.subinsbtn { display: inline-block; margin-left: auto; margin-right: auto; width: 20px; background: url(../img/common/add.png) no-repeat left center; text-decoration: none; }
 a.subeditbtn { display: inline-block; margin-left: auto; margin-right: auto; width: 20px; background: url(../img/common/edit.png) no-repeat left center; text-decoration: none; }
 a.subcopybtn { display: inline-block; margin-left: auto; margin-right: auto; width: 20px; background: url(../img/common/copy.png) no-repeat left center; text-decoration: none; }
-.RadioWraper, .CheckWraper { height:36px;line-height:36px;width: 100%;padding-left: 10px;font-size: 14px;border-radius: 3px;border: solid 1px #999;}
+.RadioWraper, .CheckWraper { height:36px;line-height:36px;width: 100%;padding-left: 10px;font-size: 14px;border: solid 1px #dfe5eb;}
 .RadioWraper input[type="checkbox"],
 .RadioWraper input[type="radio"],
 .CheckWraper input[type="checkbox"],
-.CheckWraper input[type="radio"] {margin:0; }
+.CheckWraper input[type="radio"] {
+    margin: 0;
+    margin-top: -3px;
+    margin-right: 4px;
+    display: inline-block;
+}
 .gray { color: Gray; }
 .red { color: red; }
 .green { color: green; }
@@ -78,14 +83,23 @@ a.subcopybtn { display: inline-block; margin-left: auto; margin-right: auto; wid
 .hidden { display: none; }
 .menubar { height: 55px; overflow: hidden; z-index: 100; }
 .topnav { width: 100%; left: 0px; display: block; z-index: 100; overflow: visible; position: fixed; top: 0px; background: #fff; font-size:16px; height: 50px; border-bottom: 1px solid #ccc; padding-left: 10px; }
-a.linkbtn { line-height: 50px; padding: 0px 0px 0 20px; text-decoration: none; display: inline-block; color: #000; font-size: 14px; }
+a.linkbtn {
+    padding: 0 10px 0 25px;
+    /* text-decoration: none; */
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    background: #1494f7;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 3px}
 a.linkbtn:hover { color: #32bce1; text-decoration: none; }
-.split { color: #b5b5b5; width: 20px; text-align: center; display: inline-block; font-style: normal; }
+.split { display: none; color: #b5b5b5; width: 20px; text-align: center;  font-style: normal; }
 .menubar ul { float: right; list-style-type: none; }
 .menubar ul li { padding: 0px 10px 0px 8px; float: left; margin-right: -2px; background: url(../img/edge1.gif) no-repeat 100% 50%; }
-label { cursor: pointer; }
+label { cursor: pointer; padding-right: 10px}
 label.error { font-weight: 600; color: red; margin-left: 10px; width: auto; display: inline; }
-.RequiredStar { color: red; font-weight: bold; width: 12px; text-align: center; vertical-align: middle; width: 10px; height: 100%; margin-left: -32px; margin-top: 9px; position: absolute; z-index: 50; }
+.RequiredStar { color: red; font-weight: bold; width: 12px; text-align: center; vertical-align: middle; width: 10px; height: 100%; margin-left: -20px; margin-top: 9px; position: absolute; z-index: 50; }
 .RequiredTbl { table-layout: fixed; display: inline-table; float: left; background-color: White; }
 .RequiredTbl tr td:first-child { width: 100%; }
 .RequiredTbl td { text-indent: 0px; padding: 0px; }
@@ -121,13 +135,13 @@ p.valp { padding: 0px 3px; word-wrap: break-word; display: inline; }
 .signimg { position: absolute; top: 0px; left: 0px; }
 
 body .qtip { line-height: 1.5; }
-#btnSaveAdd { background: url(../grid/images/add.png) no-repeat center left; }
+#btnSaveAdd { background: #1494f7 url(../grid/images/add.png) no-repeat 5px center; }
 #btnSavea,
-#btnSave { background: url(../grid/images/disk.png) no-repeat center left; }
-#btnClose { background: url(../grid/images/crossred.png) no-repeat center left; }
-#btnDirection { background: url(../grid/images/view.png) no-repeat center left; }
-#btnAuth { background: url(../grid/images/gear.png) no-repeat center left; }
-#btnStartWF { padding-right: 10px; line-height: 23px; padding: 0px; text-decoration: none; display: inline-block; color: Blue; height: 23px; padding-left: 17px; background: url(../grid/images/edit.png) no-repeat center left; }
+#btnSave { background: #1494f7 url(../grid/images/disk.png) no-repeat 5px center; }
+#btnClose { background: #1494f7 url(../grid/images/crossred.png) no-repeat 5px center; }
+#btnDirection { background: #1494f7 url(../grid/images/view.png) no-repeat 5px center; }
+#btnAuth { background: #1494f7 url(../grid/images/gear.png) no-repeat 5px center; }
+#btnStartWF { padding-right: 10px; line-height: 23px; padding: 0px; text-decoration: none; display: inline-block; color: Blue; height: 23px; padding-left: 17px; background: #1494f7 url(../grid/images/edit.png) no-repeat 5px center; }
 
 .relbox { position:relative;}
 .absbox { position:absolute;background:#fff;border:solid 1px #999;max-height:360px;overflow:auto;border-top:none;display:none;z-index:100;}

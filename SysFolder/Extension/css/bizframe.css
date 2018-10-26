@@ -11,7 +11,7 @@ a,a:hover{ color: #333; text-decoration: none; cursor: pointer; }
 .main-area .sidebar .sidebar-current { background-color: #fff;
 	border: solid #1494f7;
 	border-width: 2px 0 0 0;}
-.main-area .sidebar li.sidebar-current a {color:#dfe5eb; }
+.main-area .sidebar li.sidebar-current a {color:#1494f7; }
 
 .closebtn { position: absolute; right: 10px; top: 0px;z-index:10; line-height: 40px;color:#333; /*background: url(../../../grid/images/crossred.png) no-repeat 10px center; padding: 0 15px 0 30px;*/ }
         .closebtn:hover { color:#32bce1;}
